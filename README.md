@@ -1,27 +1,46 @@
-# LearnNgrx
+# Learn NgRx
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+This is a small tutorial that describe how to use NgRx using the [Deck of Cards API](https://deckofcardsapi.com/)
 
-## Development server
+## Introduction
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The reactive programming is a good form of managment of data inside programming. NgRx introduce this framework, popular in React with the logic React+Flux in Angular.
 
-## Code scaffolding
+## Prerequisites for this project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Prerequisites for this is to know:
 
-## Build
+* [Angular](https://angular.io)
+* [RxJs](https://rxjs.dev/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+It better to have some knowledge of reactive apps
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Create the project:
+```
+ng new learn-ngrx
+```
 
-## Running end-to-end tests
+## Install the dependencies
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+npm i --save @ngrx/store @ngrx/effects @ngrx/store-devtools @ngrx/schematics 
+```
 
-## Further help
+* Run the following at the root of the project to change the CLI to use the NgRx Schematics.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+ng config cli.defaultCollection @ngrx/schematics
+```
+
+
+
+## Reference
+
+* [NgRx](https://ngrx.io/)
+* [Angular: NGRX a clean and clear introduction
+](https://levelup.gitconnected.com/angular-ngrx-a-clean-and-clear-introduction-4ed61c89c1fc)
+* [How to Start Flying with Angular and NgRx](https://medium.com/angular-in-depth/how-to-start-flying-with-angular-and-ngrx-b18e84d444aa)
+* [Chrome Extension Redux DevTools
+](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
