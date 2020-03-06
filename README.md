@@ -4,7 +4,8 @@ This is a small tutorial that describe how to use NgRx using the [Deck of Cards 
 
 ## Introduction
 
-The reactive programming is a good form of managment of data inside programming. NgRx introduce this framework, popular in React with the logic React+Flux in Angular.
+The reactive state is a good form of managment of data inside programming. 
+NgRx introduce this framework, popular in React with the logic React+Flux in Angular.
 
 ## Prerequisites for this project
 
@@ -13,7 +14,7 @@ Prerequisites for this is to know:
 * [Angular](https://angular.io)
 * [RxJs](https://rxjs.dev/)
 
-It better to have some knowledge of reactive apps
+It better to have some knowledge of state theory
 
 ## Getting Started
 
